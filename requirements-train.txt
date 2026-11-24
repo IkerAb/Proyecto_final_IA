@@ -1,0 +1,4 @@
+# Entrenamiento QLoRA (requiere GPU NVIDIA con CUDA; p. ej. Colab T4).
+-r requirements.txt
+trl==0.12.2
+bitsandbytes==0.44.1

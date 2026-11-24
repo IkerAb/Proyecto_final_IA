@@ -1,0 +1,13 @@
+# Entornos
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Pesos del modelo base (se descargan con scripts/download_model.py)
+models/
+
+# Checkpoints intermedios del entrenamiento
+checkpoints/
+.gradio/
+.claude/

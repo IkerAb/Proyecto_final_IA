@@ -1,0 +1,60 @@
+{
+  "split_mode": "template",
+  "seed": 7,
+  "total": 1249,
+  "templates": 77,
+  "splits": {
+    "train": {
+      "n": 886,
+      "templates": 55,
+      "by_category": {
+        "multi_join": 100,
+        "aggregation": 149,
+        "multi_condition": 40,
+        "select_where": 167,
+        "date_logic": 80,
+        "join": 80,
+        "order_limit": 58,
+        "join_aggregation": 86,
+        "having": 56,
+        "group_by": 47,
+        "subquery": 23
+      }
+    },
+    "val": {
+      "n": 168,
+      "templates": 11,
+      "by_category": {
+        "date_logic": 15,
+        "subquery": 20,
+        "having": 15,
+        "join": 20,
+        "group_by": 6,
+        "aggregation": 20,
+        "multi_condition": 20,
+        "order_limit": 9,
+        "select_where": 20,
+        "join_aggregation": 20,
+        "multi_join": 3
+      }
+    },
+    "test": {
+      "n": 195,
+      "templates": 11,
+      "by_category": {
+        "multi_join": 20,
+        "multi_condition": 20,
+        "order_limit": 20,
+        "aggregation": 20,
+        "join": 20,
+        "date_logic": 20,
+        "having": 12,
+        "select_where": 20,
+        "subquery": 20,
+        "join_aggregation": 20,
+        "group_by": 3
+      }
+    }
+  },
+  "avg_sql_chars": 89.1
+}

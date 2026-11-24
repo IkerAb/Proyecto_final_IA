@@ -1,0 +1,10 @@
+services:
+  sqlocal:
+    build: .
+    image: sqlocal
+    ports:
+      - "127.0.0.1:7860:7860"   # solo accesible desde esta máquina
+    volumes:
+      - ./models:/app/models:ro          # pesos descargados con scripts/download_model.py
+      - ./adapter:/app/adapter:ro        # adaptador LoRA entrenado
+      - ./resultados:/app/resultados     # resultados de evaluación

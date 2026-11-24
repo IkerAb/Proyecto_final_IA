@@ -1,0 +1,10 @@
+# Inferencia, evaluación y demo (funciona en CPU). Versiones fijadas para reproducibilidad.
+torch==2.5.1
+transformers==4.46.3
+peft==0.13.2
+accelerate==1.1.1
+huggingface_hub==0.36.2
+datasets==3.1.0
+pandas==2.2.3
+gradio==5.50.0
+pydantic==2.10.6

@@ -1,0 +1,7 @@
+.venv
+.git
+models
+checkpoints
+docs
+**/__pycache__
+.gradio
